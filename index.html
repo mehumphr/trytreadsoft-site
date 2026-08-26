@@ -56,6 +56,8 @@
   .svc .c{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
           padding:22px;transition:border-color .15s}
   .svc .c:hover{border-color:var(--navy)}
+  .svc .c.featured{grid-column:1/-1;border-left:4px solid var(--navy);display:flex;align-items:flex-start;gap:16px}
+  .svc .c.featured .body{flex:1}
   .svc .num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;
             border-radius:9px;background:rgba(27,27,111,.08);color:var(--navy);font-weight:800;
             font-size:13px;margin-bottom:14px}
@@ -112,6 +114,7 @@
         <div class="c"><span class="num">02</span><h3>Customer service automation</h3><p>Handle routine questions, routing and follow-ups automatically, so your people spend time where judgement matters.</p></div>
         <div class="c"><span class="num">03</span><h3>Data and reporting</h3><p>Turn scattered operational data into clear reporting, so decisions come from numbers you can see.</p></div>
         <div class="c"><span class="num">04</span><h3>Systems integration</h3><p>Connect the tools you already use, so information moves without anyone re-typing it.</p></div>
+        <div class="c featured"><span class="num">05</span><div class="body"><h3>Payment provider optimization</h3><p>We review how your business takes payments today, and if there is a better-suited provider for your setup, we help you move to it. Independent advice, not tied to any one provider.</p></div></div>
       </div>
     </section>
 
